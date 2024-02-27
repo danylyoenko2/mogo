@@ -2,4 +2,41 @@
   --fontFamily: "Montserrat", sans-serif;
   --secondFamily: "Roboto", sans-serif;
   --thirtyFamily: "Kaushan Script", cursive;
+  --colorHover: #f38181;
+  --colorBackground: #fff;
+  --colorHeader: #95e1d3;
+  --colorTitle: #333333;
+  --colorText: #b6b6b6;
+}
+
+body {
+  width: 1920px;
+  height: 1618px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.47;
+}
+
+.logo {
+  text-decoration: none;
+}
+
+.logo-text {
+  color: var(--colorHeader);
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.nav-item {
+  list-style-type: none;
+}
+
+.nav-link {
+  color: var(--colorHeader);
+  font-weight: 400;
+  text-decoration: underline;
+}
+.nav-link:hover {
+  color: #f38181;
 }
