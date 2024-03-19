@@ -11,17 +11,17 @@
     />
     <link
       href="
-https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
-"
+  https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
+  "
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/reset.css" />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
     <title>MoGo</title>
   </head>
   <body>
     <header class="header">
-      <div>
+      <div class="container">
         <a class="logo" href="#"><h1 class="logo-text">MoGo</h1></a>
         <div>
           <nav class="header-nav">
@@ -37,7 +37,7 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
     </header>
     <main class="main">
       <section class="services">
-        <div>
+        <div class="container">
           <div class="services-headind">
             <p class="services-subtitle">We work with</p>
             <h2 class="services-title">AMAZING SERVICES</h2>
@@ -45,7 +45,7 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
           <article class="service">
             <img
               class="service-photo"
-              src="./img/icons/alarm.svg"
+              src="./src/img/icons/alarm.svg"
               alt="alarm"
             />
             <h3 class="service-title">PHOTOGRAPHY</h3>
@@ -57,7 +57,7 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
           <article class="service">
             <img
               class="service-photo"
-              src="./img/icons/bar-graph.svg"
+              src="./src/img/icons/bar-graph.svg"
               alt="alarm"
             />
             <h3 class="service-title">PHOTOGRAPHY</h3>
@@ -69,7 +69,7 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
           <article class="service">
             <img
               class="service-photo"
-              src="./img/icons/display.svg"
+              src="./src/img/icons/display.svg"
               alt="alarm"
             />
             <h3 class="service-title">PHOTOGRAPHY</h3>
@@ -81,7 +81,7 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
           <article class="service">
             <img
               class="service-photo"
-              src="./img/icons/paper.svg"
+              src="./src/img/icons/paper.svg"
               alt="alarm"
             />
             <h3 class="service-title">PHOTOGRAPHY</h3>
@@ -91,7 +91,11 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
             </p>
           </article>
           <article class="service">
-            <img class="service-photo" src="./img/icons/home.svg" alt="alarm" />
+            <img
+              class="service-photo"
+              src="./src/img/icons/home.svg"
+              alt="alarm"
+            />
             <h3 class="service-title">PHOTOGRAPHY</h3>
             <p class="service-text">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga,
@@ -101,7 +105,7 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
           <article class="service">
             <img
               class="service-photo"
-              src="./img/icons/digital-marketing 1.svg"
+              src="./src/img/icons/digital-marketing 1.svg"
               alt="alarm"
             />
             <h3 class="service-title">PHOTOGRAPHY</h3>
@@ -113,7 +117,7 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
         </div>
       </section>
       <section class="team">
-        <div>
+        <div class="container">
           <div>
             <p class="team-subtitle">Who we are</p>
             <h2 class="team-title">MEET OUR TEAM</h2>
@@ -126,14 +130,18 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
           </div>
           <div class="team-members">
             <article class="teammate">
-              <img class="teammate-photo" src="./img/team/dix.jpg" alt="dix" />
+              <img
+                class="teammate-photo"
+                src="./src/img/team/dix.jpg"
+                alt="dix"
+              />
               <h4 class="teammate-name">MATTHEW DIX</h4>
               <p class="teammate-role">Graphic Design</p>
             </article>
             <article>
               <img
                 class="teammate-photo"
-                src="./img/team/campbell.jpg"
+                src="./src/img/team/campbell.jpg"
                 alt="campbell"
               />
               <h4 class="teammate-name">CHRISTOPHER CAMPBELL</h4>
@@ -142,7 +150,7 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
             <article>
               <img
                 class="teammate-photo"
-                src="./img/team/fertig.jpg"
+                src="./src/img/team/fertig.jpg"
                 alt="fertig"
               />
               <h4 class="teammate-name">MICHAEL FERTIG</h4>
@@ -153,13 +161,16 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
       </section>
     </main>
     <footer class="footer">
-      <p class="footer-text">
-        © 2016 MoGo free PSD template by <span class="footer-info">Laaqiq</span>
-      </p>
-      <form class="footer-form" action="#">
-        <input class="form-input" type="email" placeholder="Your email..." />
-        <button class="form-button">SUBSCRIBE</button>
-      </form>
+      <div class="container">
+        <p class="footer-text">
+          © 2016 MoGo free PSD template by
+          <span class="footer-info">Laaqiq</span>
+        </p>
+        <form class="footer-form" action="#">
+          <input class="form-input" type="email" placeholder="Your email..." />
+          <button class="form-button">SUBSCRIBE</button>
+        </form>
+      </div>
     </footer>
   </body>
 </html>

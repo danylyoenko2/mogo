@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -15,4 +20,17 @@ h5,
 h6 {
   font-weight: inherit;
   font-size: inherit;
+}
+
+input {
+  text-decoration: none;
+  border: none;
+  margin-left: 0;
+  outline: 0;
+}
+
+button {
+  border: none;
+  font: inherit;
+  color: inherit;
 }
