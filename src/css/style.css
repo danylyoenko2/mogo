@@ -32,10 +32,21 @@ body {
 .header {
   padding-top: 17px;
   padding-bottom: 80px;
+  height: 45px;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 660px;
+  width: 470px;
 }
 
 .logo {
   text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 
 .logo-text {
@@ -63,8 +74,12 @@ body {
   padding-bottom: 100px;
 }
 
-.team {
-  padding-bottom: 80px;
+.supline {
+  width: 60px;
+  height: 4px;
+  background-color: var(--colorHover);
+  margin: 0 auto;
+  margin-bottom: 65px;
 }
 
 .services-subtitle {
@@ -74,17 +89,32 @@ body {
   text-align: center;
 }
 
+.service {
+  width: 331px;
+  padding-bottom: 100px;
+  padding-left: 60px;
+}
+
+.service-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .services-title {
   font-weight: 700;
   font-size: 30px;
   font-variant: all-small-caps;
   text-align: center;
+  padding-bottom: 40px;
 }
 
 .service-title {
   font-weight: 400;
   font-size: 14px;
   font-variant: small-caps;
+  padding-bottom: 20px;
 }
 
 .service-text {
@@ -102,11 +132,27 @@ body {
   text-align: center;
 }
 
+.team {
+  padding-bottom: 80px;
+}
+
+.team-members {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.team-members:last-child {
+  margin-left: 0;
+}
+
 .team-title {
   font-weight: 700;
   font-size: 30px;
   font-variant: all-small-caps;
   text-align: center;
+  padding-bottom: 36px;
 }
 
 .team-text {
@@ -134,6 +180,7 @@ body {
 .footer {
   padding-top: 10px;
   padding-bottom: 10px;
+  height: 50px;
 }
 
 .footer-text {
